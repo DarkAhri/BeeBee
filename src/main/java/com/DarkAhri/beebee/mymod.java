@@ -10,10 +10,11 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
 
-@Mod(modid = BeeBee.MODID, version = Tags.VERSION, name = "BeeBee", acceptedMinecraftVersions = "[1.7.10]")
-public class BeeBee {
+@Mod(modid = mymod.MODID, version = Tags.VERSION, name = mymod.modname, acceptedMinecraftVersions = "[1.7.10]")
+public class mymod {
 
     public static final String MODID = "BeeBee";
+    public static final String modname = "beebee";
     public static final Logger LOG = LogManager.getLogger(MODID);
 
     @SidedProxy(clientSide = "com.DarkAhri.beebee.ClientProxy", serverSide = "com.DarkAhri.beebee.CommonProxy")

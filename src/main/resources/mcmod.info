@@ -3,12 +3,12 @@
 	"modList": [{
 		"modid": "${modId}",
 		"name": "${modName}",
-		"description": "A lttle Mod make Bee work faster.",
+		"description": "Modded elements from normal players.",
 		"version": "${modVersion}",
 		"mcversion": "${minecraftVersion}",
-		"url": "private",
+		"url": "https://github.com/Nxer/Twist-Space-Technology-Mod",
 		"updateUrl": "",
-		"authorList": ["Dark_Ahri"],
+		"authorList": ["Nxer"],
 		"credits": "",
 		"logoFile": "",
 		"screenshots": [],
@@ -16,6 +16,6 @@
 		"requiredMods": [],
 		"dependencies": [],
 		"dependants": [],
-		"useDependencyInformation": false
+		"useDependencyInformation": true
 	}]
 }
